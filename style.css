@@ -1,23 +1,89 @@
 body{
-	background-color: #777;
-	width: 960px;
-	font-size: 18px;
-	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-    font-color:#ebebeb;
-    text-align: left;
+    max-width: 960px
 }
-section{
-	width: 495px;
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: teal;
+    clear: left;
+    text-align: center;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #777;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ebebeb;
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Sans-serif, Helvtica, Helvetica-neue;
 
 }
 
-img{
-	float: right;
-	padding-top: 20px;
-	margin-top: 20px;
-	display: block;
-	overflow: auto;
-	clear: auto;
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #teal;
+    color: white;
+}
+a{
+    max-width: 960px
 
 }
-.clear {overflow: auto}
+.main { flex:2 0px; }
+.aside-1 { order:1; }
+.main { order:2; }
+.aside-2 {order:3;}
+.footer { order:4; }
+}
+section {
+    padding: 2em;
+    overflow:hidden;
+    width: 200px;
+    height:300px
+    float: left;
+    display: block;
+    margin-top: 15px;
+    background-color:#d5d5bf;
+    padding-right:5em;
+}
+article {
+    
+    padding: 1em;
+    overflow: hidden;
+    max-width:960px;
+    height: 200px;
+    float: left;
+    display: block;
+    margin-bottom: 100px
+    }
+   
+ p{
+    width:400px;
+    height:500px;
+    background-color:#777;
+    content:#ebebeb;
+    margin-bottom: 10px
+ }   
+ aside{
+    width:500px;
+    height:300px;
+    background-color:#777;
+    float:right;
+    margin-top: 15px
+
+
